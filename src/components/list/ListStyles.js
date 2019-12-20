@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
+  width: 150px;
+  height: 150px;
+
+  background-color: bisque;
 `;
 
 export const qwe = null;
