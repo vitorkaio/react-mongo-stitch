@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100px;
   margin: 1rem 0;
 
-  background-color: white;
+  background-color: ${props => props.isSave ? 'seagreen' : 'white'};
   border: 1px solid transparent;
   border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

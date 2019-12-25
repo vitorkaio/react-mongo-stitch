@@ -8,7 +8,7 @@ const List = ({ repos, select }) => {
       {
         repos.map((item, index) => {
           return (
-            <Container key={item.id} onClick={() => select(item)}>
+            <Container key={item.id} onClick={() => select(item)} isSave={item.save}>
               <WrapperTitle>
                 <Title>{index + 1}: {item.name}</Title>
               </WrapperTitle>
